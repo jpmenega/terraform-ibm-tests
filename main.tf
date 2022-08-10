@@ -4,5 +4,5 @@ data "ibm_is_instance" "turbonomic" {
 
 output "out" {
   value = data.ibm_is_instance.turbonomic
-  sensitive = true
+  sensitive = false
 }
