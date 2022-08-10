@@ -3,5 +3,5 @@ data "ibm_is_instance" "turbonomic" {
 }
 
 output "out" {
-  value = ibm_is_instance.turbonomic
+  value = data.ibm_is_instance.turbonomic
 }
